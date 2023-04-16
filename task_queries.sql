@@ -156,7 +156,7 @@ SELECT * FROM student;
 
 -- Task 12: Compute te grade for a student, where the lowest score for a given category is dropped.
 -- Insert student id and crn into table to calculate grade
-INSERT INTO student_total_grade(student_id, crn) VALUES(029291, 101);
+-- INSERT INTO student_total_grade(student_id, crn) VALUES(029291, 101);
 
 --  Updates the student's total participation grade
 UPDATE student_total_grade
