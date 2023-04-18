@@ -30,9 +30,10 @@ WHERE crn = 102;
 
 -- Task 6
 -- List all of the students in a course and all of their scores on every assignment
-SELECT student_id, crn, hw_id, hw_score FROM homework
-WHERE crn = 102
-ORDER BY student_id;
+SELECT DISTINCT student.f_name, student.l_name, homework.student_id, homework.crn, hw_id, hw_score 
+FROM homework JOIN student ON homework.student_id = student.student_id
+WHERE homework.crn = 102
+ORDER BY homework.student_id;
 
 
 
