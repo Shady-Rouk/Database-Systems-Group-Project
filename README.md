@@ -1,7 +1,7 @@
 # Database-Systems-Group-Project
 
 ## ER Diagram for a Professor Gradebook Database
-![ER Diagram](https://raw.githubusercontent.com/Shady-Rouk/Database-Systems-Group-Project/main/Database%20Systems%20ERD.jpeg)
+![ER Diagram](https://raw.githubusercontent.com/Shady-Rouk/Database-Systems-Group-Project/main/Database_Systems_ERD.jpeg)
 <!--Our ER Diagram-->
 
 
